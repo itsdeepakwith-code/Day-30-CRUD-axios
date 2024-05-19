@@ -1,0 +1,31 @@
+body {
+  background-image: linear-gradient(to right, #f5f5f5, #e0e0e0);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.user-list {
+  margin-top: 20px;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
